@@ -1,0 +1,194 @@
+package org.fdroid.fdroid.views.main;
+
+import android.content.Intent;
+import android.database.Cursor;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.design.widget.FloatingActionButton;
+import android.support.v4.app.LoaderManager;
+import android.support.v4.content.CursorLoader;
+import android.support.v4.content.Loader;
+import android.support.v4.widget.SwipeRefreshLayout;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.GridLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.view.View;
+import android.widget.FrameLayout;
+import android.widget.LinearLayout;
+import android.widget.ProgressBar;
+import android.widget.TextView;
+import org.fdroid.fdroid.Preferences;
+import org.fdroid.fdroid.R;
+import org.fdroid.fdroid.UpdateService;
+import org.fdroid.fdroid.Utils;
+import org.fdroid.fdroid.data.AppProvider;
+import org.fdroid.fdroid.data.RepoProvider;
+import org.fdroid.fdroid.data.Schema.AppMetadataTable;
+import org.fdroid.fdroid.views.apps.AppListActivity;
+import org.fdroid.fdroid.views.hiding.HidingManager;
+import org.fdroid.fdroid.views.whatsnew.WhatsNewAdapter;
+
+import java.util.Date;
+import java.util.Locale;
+
+/**
+ * Loads a list of newly added or recently updated apps and displays them to the user.
+ */
+class WhatsNewViewBinder implements LoaderManager.LoaderCallbacks<Cursor> {
+
+    private static final int LOADER_ID = 978015789;
+
+    private final WhatsNewAdapter whatsNewAdapter;
+    private final AppCompatActivity activity;
+    private final TextView emptyState;
+    private final RecyclerView appList;
+
+    private ProgressBar progressBar;
+
+    WhatsNewViewBinder(final AppCompatActivity activity, FrameLayout parent) {
+        this.activity = activity;
+
+        View whatsNewView = activity.getLayoutInflater().inflate(R.layout.main_tab_whats_new, parent, true);
+
+        whatsNewAdapter = new WhatsNewAdapter(activity);
+
+        GridLayoutManager layoutManager = new GridLayoutManager(activity, 2);
+        layoutManager.setSpanSizeLookup(new WhatsNewAdapter.SpanSizeLookup());
+
+        emptyState = (TextView) whatsNewView.findViewById(R.id.empty_state);
+
+        appList = (RecyclerView) whatsNewView.findViewById(R.id.app_list);
+        appList.setHasFixedSize(true);
+        appList.setLayoutManager(layoutManager);
+        appList.setAdapter(whatsNewAdapter);
+
+        final SwipeRefreshLayout swipeToRefresh = (SwipeRefreshLayout) whatsNewView
+                .findViewById(R.id.swipe_to_refresh);
+        Utils.applySwipeLayoutColors(swipeToRefresh);
+        swipeToRefresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                swipeToRefresh.setRefreshing(false);
+                UpdateService.updateNow(activity);
+            }
+        });
+
+        FloatingActionButton searchFab = (FloatingActionButton) whatsNewView.findViewById(R.id.fab_search);
+        searchFab.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                activity.startActivity(new Intent(activity, AppListActivity.class));
+            }
+        });
+        searchFab.setOnLongClickListener(new View.OnLongClickListener() {
+            @Override
+            public boolean onLongClick(View view) {
+                if (Preferences.get().hideOnLongPressSearch()) {
+                    HidingManager.showHideDialog(activity);
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        });
+
+        activity.getSupportLoaderManager().initLoader(LOADER_ID, null, this);
+    }
+
+    @NonNull
+    @Override
+    public Loader<Cursor> onCreateLoader(int id, Bundle args) {
+        if (id != LOADER_ID) {
+            return null;
+        }
+
+        // select that have all required items:
+        String selection = "(" + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.NAME + " != ''"
+                + " AND " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.SUMMARY + " != ''"
+                + " AND " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.DESCRIPTION + " != ''"
+                + " AND " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.LICENSE + " != ''"
+                + " AND " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.WHATSNEW + " != ''";
+        if (!"en".equals(Locale.getDefault().getLanguage())) {
+            // only require localization if using a non-English locale
+            selection += " AND " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.IS_LOCALIZED + " = 1";
+        }
+        //  and at least one optional item:
+        selection += ") AND ("
+                + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.SEVEN_INCH_SCREENSHOTS + " IS NOT NULL "
+                + " OR " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.PHONE_SCREENSHOTS + " IS NOT NULL "
+                + " OR " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.TEN_INCH_SCREENSHOTS + " IS NOT NULL "
+                + " OR " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.TV_SCREENSHOTS + " IS NOT NULL "
+                + " OR " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.WEAR_SCREENSHOTS + " IS NOT NULL "
+                + " OR " + AppMetadataTable.NAME + "." + AppMetadataTable.Cols.FEATURE_GRAPHIC + " IS NOT NULL "
+                + ")";
+
+        return new CursorLoader(
+                activity,
+                AppProvider.getRecentlyUpdatedUri(),
+                AppMetadataTable.Cols.ALL,
+                selection,
+                null,
+                null
+        );
+    }
+
+    @Override
+    public void onLoadFinished(@NonNull Loader<Cursor> loader, Cursor cursor) {
+        if (loader.getId() != LOADER_ID) {
+            return;
+        }
+
+        whatsNewAdapter.setAppsCursor(cursor);
+
+        if (whatsNewAdapter.getItemCount() == 0) {
+            emptyState.setVisibility(View.VISIBLE);
+            appList.setVisibility(View.GONE);
+            explainEmptyStateToUser();
+        } else {
+            emptyState.setVisibility(View.GONE);
+            appList.setVisibility(View.VISIBLE);
+        }
+    }
+
+    private void explainEmptyStateToUser() {
+        if (Preferences.get().isIndexNeverUpdated() && UpdateService.isUpdating()) {
+            if (progressBar != null) {
+                return;
+            }
+            LinearLayout linearLayout = (LinearLayout) appList.getParent();
+            progressBar = new ProgressBar(activity, null, android.R.attr.progressBarStyleLarge);
+            progressBar.setId(R.id.progress_bar);
+            linearLayout.addView(progressBar);
+            emptyState.setVisibility(View.GONE);
+            appList.setVisibility(View.GONE);
+            return;
+        }
+
+        StringBuilder emptyStateText = new StringBuilder();
+        emptyStateText.append(activity.getString(R.string.latest__empty_state__no_recent_apps));
+        emptyStateText.append("\n\n");
+
+        int repoCount = RepoProvider.Helper.countEnabledRepos(activity);
+        if (repoCount == 0) {
+            emptyStateText.append(activity.getString(R.string.latest__empty_state__no_enabled_repos));
+        } else {
+            Date lastUpdate = RepoProvider.Helper.lastUpdate(activity);
+            if (lastUpdate == null) {
+                emptyStateText.append(activity.getString(R.string.latest__empty_state__never_updated));
+            } else {
+                emptyStateText.append(Utils.formatLastUpdated(activity.getResources(), lastUpdate));
+            }
+        }
+
+        emptyState.setText(emptyStateText.toString());
+    }
+
+    @Override
+    public void onLoaderReset(@NonNull Loader<Cursor> loader) {
+        if (loader.getId() != LOADER_ID) {
+            return;
+        }
+
+        whatsNewAdapter.setAppsCursor(null);
+    }
+}

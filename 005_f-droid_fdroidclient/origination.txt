@@ -1,0 +1,5 @@
+git:  https://github.com/f-droid/fdroidclient.git
+
+(8) src1 : 005_f-droid_fdroidclient/app/src/basic/java
+(70) src2 : 005_f-droid_fdroidclient/app/src/full/java
+(159) src3 : 005_f-droid_fdroidclient/app/src/main/java

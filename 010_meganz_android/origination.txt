@@ -1,0 +1,3 @@
+git:  https://github.com/meganz/android.git
+
+(548) src1 : 010_meganz_android/app/src/main/java

@@ -1,0 +1,7 @@
+git:  https://github.com/8enet/appopsx.git
+
+(7) src1 : 003_8enet_appopsx/AdbLib/src/main/java
+(9) src2 : 003_8enet_appopsx/apicompat/src/main/java
+(49) src3 : 003_8enet_appopsx/app/src/main/java
+(27) src4 : 003_8enet_appopsx/opsxlib/src/main/java
+(11) src5 : 003_8enet_appopsx/opsxpro/src/main/java

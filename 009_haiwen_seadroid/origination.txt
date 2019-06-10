@@ -1,0 +1,3 @@
+git:  https://github.com/haiwen/seadroid.git
+
+(228) src1 : 009_haiwen_seadroid/app/src/main/java

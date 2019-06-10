@@ -1,0 +1,3 @@
+git:  https://github.com/playerone-id/eoscommander.git
+
+(162) src1 : 007_playerone-id_eoscommander/app/src/main/java

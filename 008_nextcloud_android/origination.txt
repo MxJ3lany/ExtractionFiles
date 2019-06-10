@@ -1,0 +1,7 @@
+git:  https://github.com/nextcloud/android.git
+
+(3) src1 : 008_nextcloud_android/src/generic/java
+(7) src2 : 008_nextcloud_android/src/gplay/java
+(351) src3 : 008_nextcloud_android/src/main/java
+(3) src4 : 008_nextcloud_android/src/qa/java
+(3) src5 : 008_nextcloud_android/src/versionDev/java

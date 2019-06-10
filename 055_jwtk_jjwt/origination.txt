@@ -1,0 +1,6 @@
+git:  https://github.com/jwtk/jjwt.git
+
+(67) src1 : 055_jwtk_jjwt/api/src/main/java
+(2) src2 : 055_jwtk_jjwt/extensions/jackson/src/main/java
+(2) src3 : 055_jwtk_jjwt/extensions/orgjson/src/main/java
+(45) src4 : 055_jwtk_jjwt/impl/src/main/java

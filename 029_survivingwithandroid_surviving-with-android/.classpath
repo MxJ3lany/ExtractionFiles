@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="src" path="src1"/>
+	<classpathentry kind="src" path="src2"/>
+	<classpathentry kind="src" path="src3"/>
+	<classpathentry kind="src" path="src4"/>
+	<classpathentry kind="src" path="src5"/>
+	<classpathentry kind="src" path="src6"/>
+	<classpathentry kind="src" path="src7"/>
+	<classpathentry kind="src" path="src8"/>
+	<classpathentry kind="src" path="src9"/>
+	<classpathentry kind="src" path="src10"/>
+	<classpathentry kind="src" path="src11"/>
+	<classpathentry kind="src" path="src12"/>
+	<classpathentry kind="src" path="src13"/>
+	<classpathentry kind="src" path="src14"/>
+	<classpathentry kind="src" path="src15"/>
+	<classpathentry kind="src" path="src16"/>
+	<classpathentry kind="src" path="src17"/>
+	<classpathentry kind="src" path="src18"/>
+	<classpathentry kind="src" path="src19"/>
+	<classpathentry kind="src" path="src20"/>
+	<classpathentry kind="src" path="src21"/>
+	<classpathentry kind="src" path="src22"/>
+	<classpathentry kind="src" path="src23"/>
+	<classpathentry kind="src" path="src24"/>
+	<classpathentry kind="src" path="src25"/>
+	<classpathentry kind="src" path="src26"/>
+	<classpathentry kind="src" path="src27"/>
+	<classpathentry kind="src" path="src28"/>
+	<classpathentry kind="src" path="src29"/>
+	<classpathentry kind="src" path="src30"/>
+	<classpathentry kind="src" path="src31"/>
+	<classpathentry kind="src" path="src32"/>
+</classpath>

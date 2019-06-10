@@ -1,0 +1,3 @@
+git:  https://github.com/guardianproject/chatsecureandroid.git
+
+src1 : 167_guardianproject_chatsecureandroid/src/net/java

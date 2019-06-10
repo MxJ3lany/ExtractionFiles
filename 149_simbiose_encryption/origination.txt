@@ -1,0 +1,4 @@
+git:  https://github.com/simbiose/encryption.git
+
+src1 : 149_simbiose_encryption/Examples/Android/app/src/main/java
+src2 : 149_simbiose_encryption/Examples/Java

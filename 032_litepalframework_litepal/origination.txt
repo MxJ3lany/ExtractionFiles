@@ -1,0 +1,6 @@
+git:  https://github.com/litepalframework/litepal.git
+
+(70) src1 : 032_litepalframework_litepal/core/src/main/java
+(1) src2 : 032_litepalframework_litepal/java
+(1) src3 : 032_litepalframework_litepal/java/src/main/java
+(24) src4 : 032_litepalframework_litepal/sample/src/main/java

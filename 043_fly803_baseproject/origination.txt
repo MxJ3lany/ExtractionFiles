@@ -1,0 +1,4 @@
+git:  https://github.com/fly803/baseproject.git
+
+(45) src1 : 043_fly803_baseproject/app/src/main/java
+(253) src2 : 043_fly803_baseproject/baseproject/src/main/java

@@ -1,0 +1,3 @@
+git:  https://github.com/senhlinsh/utils-everywhere.git
+
+(90) src1 : 041_senhlinsh_utils-everywhere/utils/src/main/java

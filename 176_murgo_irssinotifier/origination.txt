@@ -1,0 +1,4 @@
+git:  https://github.com/murgo/irssinotifier.git
+
+(43) src1 : 176_murgo_irssinotifier/Android/mobile/src/main/java
+(3) src2 : 176_murgo_irssinotifier/Android/wear/src/main/java

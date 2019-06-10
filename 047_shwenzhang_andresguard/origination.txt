@@ -1,0 +1,7 @@
+git:  https://github.com/shwenzhang/andresguard.git
+
+(1) src1 : 047_shwenzhang_andresguard/AndResGuard-cli/src/main/java
+(37) src2 : 047_shwenzhang_andresguard/AndResGuard-core/src/main/java
+(1) src3 : 047_shwenzhang_andresguard/AndResGuard-example/app/src/main/java
+(1) src4 : 047_shwenzhang_andresguard/AndResGuard-example/app1/src/main/java
+(1) src5 : 047_shwenzhang_andresguard/AndResGuard-example/app2/src/main/java

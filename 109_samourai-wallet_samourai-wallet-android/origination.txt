@@ -1,0 +1,4 @@
+git:  https://github.com/samourai-wallet/samourai-wallet-android.git
+
+(173) src1 : 109_samourai-wallet_samourai-wallet-android/app/src/main/java
+(24) src2 : 109_samourai-wallet_samourai-wallet-android/tor/src/main/java

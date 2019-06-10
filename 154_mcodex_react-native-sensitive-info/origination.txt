@@ -1,0 +1,4 @@
+git:  https://github.com/mcodex/react-native-sensitive-info.git
+
+(5) src1 : 154_mcodex_react-native-sensitive-info/android/src/main/java
+(2) src2 : 154_mcodex_react-native-sensitive-info/example/android/app/src/main/java

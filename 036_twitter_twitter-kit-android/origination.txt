@@ -1,0 +1,9 @@
+git:  https://github.com/twitter/twitter-kit-android.git
+
+(24) src1 : 036_twitter_twitter-kit-android/samples/app/src/main/java
+(7) src2 : 036_twitter_twitter-kit-android/tweet-composer/src/main/java
+(7) src3 : 036_twitter_twitter-kit-android/tweet-ui/src/debug/java
+(66) src4 : 036_twitter_twitter-kit-android/tweet-ui/src/main/java
+(2) src5 : 036_twitter_twitter-kit-android/twitter-core/src/debug/java
+(113) src6 : 036_twitter_twitter-kit-android/twitter-core/src/main/java
+(5) src7 : 036_twitter_twitter-kit-android/twitter-mopub/src/main/java

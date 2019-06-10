@@ -1,0 +1,26 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'se.simbio.encryption.Main'
+
+group 'se.simbio.encryption.java.example'
+version '2.0.1'
+
+repositories {
+    mavenCentral()
+    maven {
+        url 'https://jitpack.io'
+    }
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.github.simbiose:Encryption:2.0.1'
+}

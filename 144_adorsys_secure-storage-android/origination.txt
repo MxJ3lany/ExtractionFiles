@@ -1,0 +1,3 @@
+git:  https://github.com/adorsys/secure-storage-android.git
+
+(4) src1 : 144_adorsys_secure-storage-android/securestoragelibrary/src/main/java

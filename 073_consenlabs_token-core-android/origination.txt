@@ -1,0 +1,3 @@
+git:  https://github.com/consenlabs/token-core-android.git
+
+(68) src1 : 073_consenlabs_token-core-android/app/src/main/java

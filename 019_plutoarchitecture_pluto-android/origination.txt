@@ -1,0 +1,4 @@
+git:  https://github.com/plutoarchitecture/pluto-android.git
+
+(19) src1 : 019_plutoarchitecture_pluto-android/PlutoAndroidExample/app/src/main/java
+(88) src2 : 019_plutoarchitecture_pluto-android/PlutoAndroidExample/Pluto/src/main/java

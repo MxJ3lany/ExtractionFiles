@@ -1,0 +1,9 @@
+git:  https://github.com/uwetrottmann/seriesguide.git
+
+(9) src1 : 097_uwetrottmann_seriesguide/api/src/main/java
+(8) src2 : 097_uwetrottmann_seriesguide/app/src/amazon/java
+(319) src3 : 097_uwetrottmann_seriesguide/app/src/main/java
+(2) src4 : 097_uwetrottmann_seriesguide/app/src/pure/java
+(1) src5 : 097_uwetrottmann_seriesguide/customtabs/src/main/java
+(2) src6 : 097_uwetrottmann_seriesguide/tmdb-api/src/main/java
+(15) src7 : 097_uwetrottmann_seriesguide/widgets/src/main/java

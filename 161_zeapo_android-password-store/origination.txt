@@ -1,0 +1,3 @@
+git:  https://github.com/zeapo/android-password-store.git
+
+(14) src1 : 161_zeapo_android-password-store/app/src/main/java

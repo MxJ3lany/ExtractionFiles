@@ -1,0 +1,9 @@
+git:  https://github.com/braintree/braintree_android.git
+
+(109) src1 : 070_braintree_braintree_android/Braintree/src/main/java
+(17) src2 : 070_braintree_braintree_android/Core/src/main/java
+(3) src3 : 070_braintree_braintree_android/Demo/src/debug/java
+(19) src4 : 070_braintree_braintree_android/Demo/src/main/java
+(1) src5 : 070_braintree_braintree_android/Demo/src/release/java
+(3) src6 : 070_braintree_braintree_android/PayPalDataCollector/src/main/java
+(33) src7 : 070_braintree_braintree_android/PayPalOneTouch/src/main/java

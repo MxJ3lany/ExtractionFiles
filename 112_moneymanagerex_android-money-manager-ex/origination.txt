@@ -1,0 +1,6 @@
+git:  https://github.com/moneymanagerex/android-money-manager-ex.git
+
+(15) src1 : 112_moneymanagerex_android-money-manager-ex/androidSVG/src/main/java
+(442) src2 : 112_moneymanagerex_android-money-manager-ex/app/src/main/java
+(1) src3 : 112_moneymanagerex_android-money-manager-ex/MMEX_Icon_Font/src/main/java
+(5) src4 : 112_moneymanagerex_android-money-manager-ex/money/src/main/java

@@ -1,0 +1,7 @@
+git:  https://github.com/matrix-org/matrix-android-sdk.git
+
+(287) src1 : 063_matrix-org_matrix-android-sdk/matrix-sdk/src/main/java
+(2) src2 : 063_matrix-org_matrix-android-sdk/matrix-sdk-core/src/debug/java
+(19) src3 : 063_matrix-org_matrix-android-sdk/matrix-sdk-core/src/main/java
+(2) src4 : 063_matrix-org_matrix-android-sdk/matrix-sdk-core/src/release/java
+(60) src5 : 063_matrix-org_matrix-android-sdk/matrix-sdk-crypto/src/main/java

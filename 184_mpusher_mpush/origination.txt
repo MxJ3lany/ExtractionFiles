@@ -1,0 +1,12 @@
+git:  https://github.com/mpusher/mpush.git
+
+(82) src1 : 184_mpusher_mpush/mpush-api/src/main/java
+(13) src2 : 184_mpusher_mpush/mpush-boot/src/main/java
+(9) src3 : 184_mpusher_mpush/mpush-cache/src/main/java
+(19) src4 : 184_mpusher_mpush/mpush-client/src/main/java
+(49) src5 : 184_mpusher_mpush/mpush-common/src/main/java
+(42) src6 : 184_mpusher_mpush/mpush-core/src/main/java
+(23) src7 : 184_mpusher_mpush/mpush-monitor/src/main/java
+(15) src8 : 184_mpusher_mpush/mpush-netty/src/main/java
+(32) src9 : 184_mpusher_mpush/mpush-tools/src/main/java
+(9) src10 : 184_mpusher_mpush/mpush-zk/src/main/java

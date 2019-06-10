@@ -1,0 +1,6 @@
+git:  https://github.com/schwabe/ics-openvpn.git
+
+(96) src1 : 153_schwabe_ics-openvpn/main/src/main/java
+(1) src2 : 153_schwabe_ics-openvpn/main/src/ovpn3/java
+(3) src3 : 153_schwabe_ics-openvpn/remoteExample/src/main/java
+(3) src4 : 153_schwabe_ics-openvpn/tlsexternalcertprovider/src/main/java

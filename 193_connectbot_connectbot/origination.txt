@@ -1,0 +1,5 @@
+git:  https://github.com/connectbot/connectbot.git
+
+(1) src1 : 193_connectbot_connectbot/app/src/google/java
+(74) src2 : 193_connectbot_connectbot/app/src/main/java
+(1) src3 : 193_connectbot_connectbot/app/src/oss/java

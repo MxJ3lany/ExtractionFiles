@@ -1,0 +1,6 @@
+git:  https://github.com/popcorn-official/popcorn-android.git
+
+src1 : 092_popcorn-official_popcorn-android/base/src/main/java
+src2 : 092_popcorn-official_popcorn-android/mobile/src/main/java
+src3 : 092_popcorn-official_popcorn-android/tv/src/main/java
+src4 : 092_popcorn-official_popcorn-android/vlc/src/main/java

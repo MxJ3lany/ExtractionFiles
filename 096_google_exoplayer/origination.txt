@@ -1,0 +1,23 @@
+git:  https://github.com/google/exoplayer.git
+
+(4) src1 : 096_google_exoplayer/demos/cast/src/main/java
+(2) src2 : 096_google_exoplayer/demos/ima/src/main/java
+(6) src3 : 096_google_exoplayer/demos/main/src/main/java
+(8) src4 : 096_google_exoplayer/extensions/cast/src/main/java
+(4) src5 : 096_google_exoplayer/extensions/cronet/src/main/java
+(4) src6 : 096_google_exoplayer/extensions/ffmpeg/src/main/java
+(7) src7 : 096_google_exoplayer/extensions/flac/src/main/java
+(2) src8 : 096_google_exoplayer/extensions/gvr/src/main/java
+(1) src9 : 096_google_exoplayer/extensions/ima/src/main/java
+(1) src10 : 096_google_exoplayer/extensions/jobdispatcher/src/main/java
+(1) src11 : 096_google_exoplayer/extensions/leanback/src/main/java
+(4) src12 : 096_google_exoplayer/extensions/mediasession/src/main/java
+(2) src13 : 096_google_exoplayer/extensions/okhttp/src/main/java
+(4) src14 : 096_google_exoplayer/extensions/opus/src/main/java
+(2) src15 : 096_google_exoplayer/extensions/rtmp/src/main/java
+(9) src16 : 096_google_exoplayer/extensions/vp9/src/main/java
+(487) src17 : 096_google_exoplayer/library/core/src/main/java
+(24) src18 : 096_google_exoplayer/library/dash/src/main/java
+(26) src19 : 096_google_exoplayer/library/hls/src/main/java
+(8) src20 : 096_google_exoplayer/library/smoothstreaming/src/main/java
+(26) src21 : 096_google_exoplayer/library/ui/src/main/java

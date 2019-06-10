@@ -1,0 +1,6 @@
+git:  https://github.com/victoralbertos/rxsocialconnect-android.git
+
+(9) src1 : 136_victoralbertos_rxsocialconnect-android/app/src/main/java
+(16) src2 : 136_victoralbertos_rxsocialconnect-android/core/src/main/java
+(1) src3 : 136_victoralbertos_rxsocialconnect-android/gson_converter/src/main/java
+(2) src4 : 136_victoralbertos_rxsocialconnect-android/okhttp_interceptors/src/main/java

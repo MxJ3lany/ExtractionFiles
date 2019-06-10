@@ -1,0 +1,17 @@
+git:  https://github.com/butterproject/butter-android.git
+
+(2) src1 : 100_butterproject_butter-android/base/src/debug/java
+(125) src2 : 100_butterproject_butter-android/base/src/main/java
+(2) src3 : 100_butterproject_butter-android/base/src/release/java
+(97) src4 : 100_butterproject_butter-android/connectsdk/core/src/main/java
+(3) src5 : 100_butterproject_butter-android/connectsdk/modules/firetv/src/main/java
+(4) src6 : 100_butterproject_butter-android/connectsdk/modules/google_cast/src/main/java
+(185) src7 : 100_butterproject_butter-android/mobile/src/main/java
+(17) src8 : 100_butterproject_butter-android/provider/media/base/src/main/java
+(9) src9 : 100_butterproject_butter-android/provider/media/mock/src/main/java
+(3) src10 : 100_butterproject_butter-android/provider/media/provider/src/main/java
+(5) src11 : 100_butterproject_butter-android/provider/media/vodo/src/main/java
+(1) src12 : 100_butterproject_butter-android/provider/subs/mock/src/main/java
+(5) src13 : 100_butterproject_butter-android/provider/subs/opensubs/src/main/java
+(3) src14 : 100_butterproject_butter-android/provider/subs/provider/src/main/java
+(128) src15 : 100_butterproject_butter-android/tv/src/main/java

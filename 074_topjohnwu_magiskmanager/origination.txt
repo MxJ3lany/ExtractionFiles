@@ -1,0 +1,5 @@
+git:  https://github.com/topjohnwu/magiskmanager.git
+
+(67) src1 : 074_topjohnwu_magiskmanager/src/full/java
+(7) src2 : 074_topjohnwu_magiskmanager/src/main/java
+(4) src3 : 074_topjohnwu_magiskmanager/src/stub/java

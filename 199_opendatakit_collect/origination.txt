@@ -1,0 +1,3 @@
+git:  https://github.com/opendatakit/collect.git
+
+(395) src1 : 199_opendatakit_collect/collect_app/src/main/java

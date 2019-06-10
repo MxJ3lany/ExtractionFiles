@@ -1,0 +1,6 @@
+git:  https://github.com/calebfenton/simplify.git
+
+(5) src1 : 061_calebfenton_simplify/demoapp/src/main/java
+(9) src2 : 061_calebfenton_simplify/simplify/ObfuscatedApp/app/src/main/java
+(13) src3 : 061_calebfenton_simplify/simplify/src/main/java
+(133) src4 : 061_calebfenton_simplify/smalivm/src/main/java

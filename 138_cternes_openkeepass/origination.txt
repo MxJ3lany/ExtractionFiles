@@ -1,0 +1,3 @@
+git:  https://github.com/cternes/openkeepass.git
+
+(89) src1 : 138_cternes_openkeepass/src/main/java

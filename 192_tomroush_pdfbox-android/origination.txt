@@ -1,0 +1,4 @@
+git:  https://github.com/tomroush/pdfbox-android.git
+
+(613) src1 : 192_tomroush_pdfbox-android/library/src/main/java
+(1) src2 : 192_tomroush_pdfbox-android/sample/src/main/java

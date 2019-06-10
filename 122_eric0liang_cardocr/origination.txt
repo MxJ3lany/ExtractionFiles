@@ -1,0 +1,4 @@
+git:  https://github.com/eric0liang/cardocr.git
+
+(2) src1 : 122_eric0liang_cardocr/app/src/main/java
+(21) src2 : 122_eric0liang_cardocr/lib_cardocr/src/main/java

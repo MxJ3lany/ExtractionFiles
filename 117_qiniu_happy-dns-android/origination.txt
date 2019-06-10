@@ -1,0 +1,3 @@
+git:  https://github.com/qiniu/happy-dns-android.git
+
+(25) src1 : 117_qiniu_happy-dns-android/library/src/main/java

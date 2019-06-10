@@ -1,0 +1,4 @@
+git:  https://github.com/gcssloop/encrypt.git
+
+(1) src1 : 069_gcssloop_encrypt/app/src/main/java
+(11) src2 : 069_gcssloop_encrypt/encryptlib/src/main/java

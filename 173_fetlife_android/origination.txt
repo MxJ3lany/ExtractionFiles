@@ -1,0 +1,5 @@
+git:  https://github.com/fetlife/android.git
+
+(227) src1 : 173_fetlife_android/FetLife/fetlife/src/main/java
+(8) src2 : 173_fetlife_android/FetLife/turbolinks/src/main/java
+(8) src3 : 173_fetlife_android/FetLifeKotlin/turbolinks/src/main/java

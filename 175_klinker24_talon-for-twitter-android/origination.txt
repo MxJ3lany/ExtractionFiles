@@ -1,0 +1,6 @@
+git:  https://github.com/klinker24/talon-for-twitter-android.git
+
+(352) src1 : 175_klinker24_talon-for-twitter-android/app/src/main/java
+(11) src2 : 175_klinker24_talon-for-twitter-android/searchview/src/main/java
+(4) src3 : 175_klinker24_talon-for-twitter-android/shared_assets/src/main/java
+(16) src4 : 175_klinker24_talon-for-twitter-android/wear/src/main/java

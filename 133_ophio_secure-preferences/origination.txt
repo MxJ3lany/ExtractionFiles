@@ -1,0 +1,4 @@
+git:  https://github.com/ophio/secure-preferences.git
+
+(6) src1 : 133_ophio_secure-preferences/library/src/main/java
+(9) src2 : 133_ophio_secure-preferences/sample/src/main/java

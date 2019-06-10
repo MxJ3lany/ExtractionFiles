@@ -1,0 +1,3 @@
+git:  https://github.com/kunzisoft/keepassdx.git
+
+(262) src1 : 150_kunzisoft_keepassdx/app/src/main/java

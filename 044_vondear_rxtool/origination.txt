@@ -1,0 +1,8 @@
+git:  https://github.com/vondear/rxtool.git
+
+src1 : 044_vondear_rxtool/RxArcGisKit/src/main/java
+src2 : 044_vondear_rxtool/RxCamera/src/main/java
+src3 : 044_vondear_rxtool/RxDemo/src/main/java
+src4 : 044_vondear_rxtool/RxFeature/src/main/java
+src5 : 044_vondear_rxtool/RxKit/src/main/java
+src6 : 044_vondear_rxtool/RxUI/src/main/java

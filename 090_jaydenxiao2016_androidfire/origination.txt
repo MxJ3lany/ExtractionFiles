@@ -1,0 +1,10 @@
+git:  https://github.com/jaydenxiao2016/androidfire.git
+
+src1 : 090_jaydenxiao2016_androidfire/app/src/main/java
+src2 : 090_jaydenxiao2016_androidfire/library/common/src/main/java
+src3 : 090_jaydenxiao2016_androidfire/library/irecyclerview/src/main/java
+src4 : 090_jaydenxiao2016_androidfire/library/jcvideoplayer/src/main/java
+src5 : 090_jaydenxiao2016_androidfire/library/oneKeyShareSDK/src/main/java
+src6 : 090_jaydenxiao2016_androidfire/library/photoPicker/src/main/java
+src7 : 090_jaydenxiao2016_androidfire/library/selectordialog/src/main/java
+src8 : 090_jaydenxiao2016_androidfire/library/UserGuide/src/main/java

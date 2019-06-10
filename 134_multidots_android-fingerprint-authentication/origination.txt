@@ -1,0 +1,4 @@
+git:  https://github.com/multidots/android-fingerprint-authentication.git
+
+(2) src1 : 134_multidots_android-fingerprint-authentication/app/src/main/java
+(4) src2 : 134_multidots_android-fingerprint-authentication/fingerprint-auth/src/main/java

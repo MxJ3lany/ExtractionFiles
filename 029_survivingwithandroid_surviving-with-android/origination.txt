@@ -1,0 +1,34 @@
+git:  https://github.com/survivingwithandroid/surviving-with-android.git
+
+src1 : 029_survivingwithandroid_surviving-with-android/AndroidCharts/app/src/main/java
+src2 : 029_survivingwithandroid_surviving-with-android/AndroidDataBinding/app/src/main/java
+src3 : 029_survivingwithandroid_surviving-with-android/AndroidFirebasePush/app/src/main/java
+src4 : 029_survivingwithandroid_surviving-with-android/AndroidJSoup/jsoup/src/main/java
+src5 : 029_survivingwithandroid_surviving-with-android/AndroidParcelable/app/src/main/java
+src6 : 029_survivingwithandroid_surviving-with-android/AndroidSnackBar/app/src/main/java
+src7 : 029_survivingwithandroid_surviving-with-android/AndroidThings_API2/app/src/main/java
+src8 : 029_survivingwithandroid_surviving-with-android/AndroidThings_FaceDetector/app/src/main/java
+src9 : 029_survivingwithandroid_surviving-with-android/AndroidThings_Firebase/app/src/main/java
+src10 : 029_survivingwithandroid_surviving-with-android/AndroidThings_LCD/app/src/main/java
+src11 : 029_survivingwithandroid_surviving-with-android/AndroidThings_Motors/app/src/main/java
+src12 : 029_survivingwithandroid_surviving-with-android/AndroidThings_Nearby/mobile/src/main/java
+src13 : 029_survivingwithandroid_surviving-with-android/AndroidThings_Nearby/things/src/main/java
+src14 : 029_survivingwithandroid_surviving-with-android/AndroidThings_SwA_Bot/app/src/main/java
+src15 : 029_survivingwithandroid_surviving-with-android/AndroidThngs_Twillio/app/src/main/java
+src16 : 029_survivingwithandroid_surviving-with-android/Android_FAB/app/src/main/java
+src17 : 029_survivingwithandroid_surviving-with-android/Android_NFC/app/src/main/java
+src18 : 029_survivingwithandroid_surviving-with-android/Android_RecyclerView_CardView/app/src/main/java
+src19 : 029_survivingwithandroid_surviving-with-android/Android_Speech/app/src/main/java
+src20 : 029_survivingwithandroid_surviving-with-android/FingerprintAuth/app/src/main/java
+src21 : 029_survivingwithandroid_surviving-with-android/MachineLearning/app/src/main/java
+src22 : 029_survivingwithandroid_surviving-with-android/MaterialApp2/app/src/main/java
+src23 : 029_survivingwithandroid_surviving-with-android/MaterialWeather/app/src/main/java
+src24 : 029_survivingwithandroid_surviving-with-android/NFCWriter/app/src/main/java
+src25 : 029_survivingwithandroid_surviving-with-android/ParsePushTutorial/app/src/main/java
+src26 : 029_survivingwithandroid_surviving-with-android/RecyclerViewTutorial/app/src/main/java
+src27 : 029_survivingwithandroid_surviving-with-android/ShakeToRefresh/app/src/main/java
+src28 : 029_survivingwithandroid_surviving-with-android/Things/app/src/main/java
+src29 : 029_survivingwithandroid_surviving-with-android/UbiApp/app/src/main/java
+src30 : 029_survivingwithandroid_surviving-with-android/UnifiedSocialProfile/app/src/main/java
+src31 : 029_survivingwithandroid_surviving-with-android/UVIndex/app/src/main/java
+src32 : 029_survivingwithandroid_surviving-with-android/Weathermap/app/src/main/java

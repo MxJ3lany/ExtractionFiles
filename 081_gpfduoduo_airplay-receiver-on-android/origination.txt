@@ -1,0 +1,3 @@
+git:  https://github.com/gpfduoduo/airplay-receiver-on-android.git
+
+(97) src1 : 081_gpfduoduo_airplay-receiver-on-android/app/src/main/java

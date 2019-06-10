@@ -1,0 +1,6 @@
+git:  https://github.com/dizitart/nitrite-database.git
+
+(3) src1 : 048_dizitart_nitrite-database/example-android-app/src/main/java
+(243) src2 : 048_dizitart_nitrite-database/nitrite/src/main/java
+(29) src3 : 048_dizitart_nitrite-database/nitrite-datagate/src/main/java
+(10) src4 : 048_dizitart_nitrite-database/nitrite-explorer/src/main/java

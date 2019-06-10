@@ -1,0 +1,6 @@
+git:  https://github.com/cloudant/sync-android.git
+
+src1 : 046_cloudant_sync-android/cloudant-sync-datastore-android/src/main/java
+src2 : 046_cloudant_sync-android/cloudant-sync-datastore-android-encryption/src/main/java
+src3 : 046_cloudant_sync-android/cloudant-sync-datastore-core/src/main/java
+src4 : 046_cloudant_sync-android/cloudant-sync-datastore-javase/src/main/java

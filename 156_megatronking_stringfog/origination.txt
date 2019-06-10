@@ -1,0 +1,7 @@
+git:  https://github.com/megatronking/stringfog.git
+
+(1) src1 : 156_megatronking_stringfog/app/src/main/java
+(1) src2 : 156_megatronking_stringfog/stringfog-ext/aes-cbc/src/main/java
+(1) src3 : 156_megatronking_stringfog/stringfog-ext/xor/src/main/java
+(10) src4 : 156_megatronking_stringfog/stringfog-gradle-plugin/src/main/java
+(4) src5 : 156_megatronking_stringfog/stringfog-interface/src/main/java

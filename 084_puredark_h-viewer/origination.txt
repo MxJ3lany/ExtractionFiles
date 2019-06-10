@@ -1,0 +1,4 @@
+git:  https://github.com/puredark/h-viewer.git
+
+(163) src1 : 084_puredark_h-viewer/app/src/main/java
+(47) src2 : 084_puredark_h-viewer/httpdns/src/main/java

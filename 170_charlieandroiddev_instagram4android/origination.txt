@@ -1,0 +1,3 @@
+git:  https://github.com/charlieandroiddev/instagram4android.git
+
+(90) src1 : 170_charlieandroiddev_instagram4android/app/src/main/java

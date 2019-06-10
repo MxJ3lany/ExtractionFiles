@@ -1,0 +1,4 @@
+git:  https://github.com/limedroid/xdroidmvp.git
+
+(18) src1 : 033_limedroid_xdroidmvp/app/src/main/java
+(56) src2 : 033_limedroid_xdroidmvp/mvp/src/main/java

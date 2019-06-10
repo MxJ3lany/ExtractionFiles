@@ -1,0 +1,8 @@
+git:  https://github.com/blankj/androidutilcode.git
+
+(2) src1 : 060_blankj_androidutilcode/bus-gradle-plugin/src/main/java
+(1) src2 : 060_blankj_androidutilcode/launcher/app/src/main/java
+(9) src3 : 060_blankj_androidutilcode/lib/base/src/main/java
+(6) src4 : 060_blankj_androidutilcode/lib/common/src/main/java
+(20) src5 : 060_blankj_androidutilcode/subutil/lib/src/main/java
+(67) src6 : 060_blankj_androidutilcode/utilcode/lib/src/main/java

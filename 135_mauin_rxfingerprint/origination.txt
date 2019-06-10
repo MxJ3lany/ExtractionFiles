@@ -1,0 +1,4 @@
+git:  https://github.com/mauin/rxfingerprint.git
+
+(27) src1 : 135_mauin_rxfingerprint/rxfingerprint/src/main/java
+(1) src2 : 135_mauin_rxfingerprint/sample/src/main/java

@@ -1,0 +1,4 @@
+git:  https://github.com/afkt/devutils.git
+
+(18) src1 : 066_afkt_devutils/app/src/main/java
+(169) src2 : 066_afkt_devutils/DevLibUtils/src/main/java

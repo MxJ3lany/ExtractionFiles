@@ -1,0 +1,13 @@
+git:  https://github.com/ttdevs/android.git
+
+(51) src1 : 012_ttdevs_android/app/src/main/java
+(14) src2 : 012_ttdevs_android/apps/air/src/main/java
+(5) src3 : 012_ttdevs_android/apps/dagger/src/main/java
+(4) src4 : 012_ttdevs_android/modules/annotations/src/main/java
+(8) src5 : 012_ttdevs_android/modules/hybrid/src/main/java
+(6) src6 : 012_ttdevs_android/modules/indicator/src/main/java
+(2) src7 : 012_ttdevs_android/modules/jniutils/src/main/java
+(1) src8 : 012_ttdevs_android/modules/markdown/src/main/java
+(6) src9 : 012_ttdevs_android/modules/reactive/src/main/java
+(8) src10 : 012_ttdevs_android/modules/retrofit/src/main/java
+(1) src11 : 012_ttdevs_android/modules/webscoket/src/main/java

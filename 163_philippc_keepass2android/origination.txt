@@ -1,0 +1,8 @@
+git:  https://github.com/philippc/keepass2android.git
+
+(585) src1 : 163_philippc_keepass2android/src/java
+(44) src2 : 163_philippc_keepass2android/src/java/android-filechooser-AS/app/src/main/java
+(181) src3 : 163_philippc_keepass2android/src/java/JavaFileStorage/app/src/main/java
+(7) src4 : 163_philippc_keepass2android/src/java/Keepass2AndroidPluginSDK2/app/src/main/java
+(45) src5 : 163_philippc_keepass2android/src/java/KP2ASoftkeyboard_AS/app/src/main/java
+(59) src6 : 163_philippc_keepass2android/src/java/PluginQR/app/src/main/java

@@ -1,0 +1,7 @@
+git:  https://github.com/mtotschnig/myexpenses.git
+
+src1 : 110_mtotschnig_myexpenses/myExpenses/src/acra/java
+src2 : 110_mtotschnig_myexpenses/myExpenses/src/conscript/java
+src3 : 110_mtotschnig_myexpenses/myExpenses/src/debug/java
+src4 : 110_mtotschnig_myexpenses/myExpenses/src/main/java
+src5 : 110_mtotschnig_myexpenses/transactionscontract/src/main/java

@@ -1,0 +1,8 @@
+git:  https://github.com/google/capillary.git
+
+(16) src1 : 119_google_capillary/demo/android/src/main/java
+(1) src2 : 119_google_capillary/demo/common/src/main/java
+(5) src3 : 119_google_capillary/demo/server/src/main/java
+(11) src4 : 119_google_capillary/lib/src/main/java
+(9) src5 : 119_google_capillary/lib-android/src/main/java
+(1) src6 : 119_google_capillary/tools/src/main/java

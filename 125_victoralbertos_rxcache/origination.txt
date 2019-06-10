@@ -1,0 +1,6 @@
+git:  https://github.com/victoralbertos/rxcache.git
+
+(3) src1 : 125_victoralbertos_rxcache/android/src/main/java
+(4) src2 : 125_victoralbertos_rxcache/compiler/src/main/java
+(54) src3 : 125_victoralbertos_rxcache/core/src/main/java
+(15) src4 : 125_victoralbertos_rxcache/runtime/src/main/java

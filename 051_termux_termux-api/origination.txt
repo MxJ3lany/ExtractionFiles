@@ -1,0 +1,3 @@
+git:  https://github.com/termux/termux-api.git
+
+(40) src1 : 051_termux_termux-api/app/src/main/java

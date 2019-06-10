@@ -1,0 +1,3 @@
+git:  https://github.com/owncloud/android.git
+
+(193) src1 : 195_owncloud_android/owncloudApp/src/main/java

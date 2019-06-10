@@ -1,0 +1,5 @@
+git:  https://github.com/nextcloud/talk-android.git
+
+(1) src1 : 183_nextcloud_talk-android/app/src/generic/java
+(3) src2 : 183_nextcloud_talk-android/app/src/gplay/java
+(235) src3 : 183_nextcloud_talk-android/app/src/main/java

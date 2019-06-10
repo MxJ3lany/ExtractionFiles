@@ -1,0 +1,12 @@
+git:  https://github.com/siacs/conversations.git
+
+(9) src1 : 188_siacs_conversations/libs/xmpp-addr/src/main/java
+(2) src2 : 188_siacs_conversations/src/compat/java
+(10) src3 : 188_siacs_conversations/src/conversations/java
+(1) src4 : 188_siacs_conversations/src/free/java
+(1) src5 : 188_siacs_conversations/src/freeCompat/java
+(303) src6 : 188_siacs_conversations/src/main/java
+(3) src7 : 188_siacs_conversations/src/playstore/java
+(1) src8 : 188_siacs_conversations/src/playstoreCompat/java
+(14) src9 : 188_siacs_conversations/src/quicksy/java
+(3) src10 : 188_siacs_conversations/src/system/java

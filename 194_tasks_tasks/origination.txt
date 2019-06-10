@@ -1,0 +1,8 @@
+git:  https://github.com/tasks/tasks.git
+
+(9) src1 : 194_tasks_tasks/app/src/amazon/java
+(5) src2 : 194_tasks_tasks/app/src/debug/java
+(9) src3 : 194_tasks_tasks/app/src/generic/java
+(12) src4 : 194_tasks_tasks/app/src/googleplay/java
+(411) src5 : 194_tasks_tasks/app/src/main/java
+(3) src6 : 194_tasks_tasks/app/src/release/java

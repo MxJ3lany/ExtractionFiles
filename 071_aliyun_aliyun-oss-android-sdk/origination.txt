@@ -1,0 +1,4 @@
+git:  https://github.com/aliyun/aliyun-oss-android-sdk.git
+
+(9) src1 : 071_aliyun_aliyun-oss-android-sdk/app/src/main/java
+(146) src2 : 071_aliyun_aliyun-oss-android-sdk/oss-android-sdk/src/main/java

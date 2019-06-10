@@ -1,0 +1,3 @@
+git:  https://github.com/trustwallet/trust-wallet-android-source.git
+
+(170) src1 : 105_trustwallet_trust-wallet-android-source/app/src/main/java

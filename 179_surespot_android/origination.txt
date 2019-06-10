@@ -1,0 +1,7 @@
+git:  https://github.com/surespot/android.git
+
+src1 : 179_surespot_android/libs/androidkeystore/src/main/java
+src2 : 179_surespot_android/libs/cameraview/src/main/java
+src3 : 179_surespot_android/libs/emojicon/src/main/java
+src4 : 179_surespot_android/libs/viewpagerindicator/src/main/java
+src5 : 179_surespot_android/surespot/src/main/java

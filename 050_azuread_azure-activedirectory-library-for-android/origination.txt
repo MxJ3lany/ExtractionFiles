@@ -1,0 +1,9 @@
+git:  https://github.com/azuread/azure-activedirectory-library-for-android.git
+
+(74) src1 : 050_azuread_azure-activedirectory-library-for-android/adal/src/main/java
+(13) src2 : 050_azuread_azure-activedirectory-library-for-android/adal/src/telemetry/java
+(1) src3 : 050_azuread_azure-activedirectory-library-for-android/adal/src/third_party/java
+(1) src4 : 050_azuread_azure-activedirectory-library-for-android/automation/src/main/java
+(102) src5 : 050_azuread_azure-activedirectory-library-for-android/keyvault/src/main/java
+(19) src6 : 050_azuread_azure-activedirectory-library-for-android/labapi/src/main/java
+(6) src7 : 050_azuread_azure-activedirectory-library-for-android/userappwithbroker/src/main/java

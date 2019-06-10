@@ -1,0 +1,7 @@
+git:  https://github.com/federicoiosue/omni-notes.git
+
+(2) src1 : 180_federicoiosue_omni-notes/omniNotes/src/alpha/java
+(2) src2 : 180_federicoiosue_omni-notes/omniNotes/src/beta/java
+(2) src3 : 180_federicoiosue_omni-notes/omniNotes/src/foss/java
+(159) src4 : 180_federicoiosue_omni-notes/omniNotes/src/main/java
+(2) src5 : 180_federicoiosue_omni-notes/omniNotes/src/play/java

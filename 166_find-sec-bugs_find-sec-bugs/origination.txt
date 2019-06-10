@@ -1,0 +1,4 @@
+git:  https://github.com/find-sec-bugs/find-sec-bugs.git
+
+(148) src1 : 166_find-sec-bugs_find-sec-bugs/findsecbugs-plugin/src/main/java
+(456) src2 : 166_find-sec-bugs_find-sec-bugs/findsecbugs-samples-deps/src/main/java

@@ -1,0 +1,4 @@
+git:  https://github.com/panpf/android-toolbox.git
+
+(67) src1 : 035_panpf_android-toolbox/tool4a/src/main/java
+(28) src2 : 035_panpf_android-toolbox/tool4j/src/main/java

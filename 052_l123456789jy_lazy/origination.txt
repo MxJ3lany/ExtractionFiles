@@ -1,0 +1,4 @@
+git:  https://github.com/l123456789jy/lazy.git
+
+(1) src1 : 052_l123456789jy_lazy/app/src/main/java
+(87) src2 : 052_l123456789jy_lazy/lazylibrary/src/main/java

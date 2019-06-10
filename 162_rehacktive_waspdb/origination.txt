@@ -1,0 +1,4 @@
+git:  https://github.com/rehacktive/waspdb.git
+
+(3) src1 : 162_rehacktive_waspdb/app/src/main/java
+(14) src2 : 162_rehacktive_waspdb/waspdb/src/main/java

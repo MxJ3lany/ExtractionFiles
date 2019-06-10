@@ -1,0 +1,14 @@
+git:  https://github.com/rtyley/spongycastle.git
+
+src1 : 145_rtyley_spongycastle/core/src/main/j2me/java
+src2 : 145_rtyley_spongycastle/core/src/main/java
+src3 : 145_rtyley_spongycastle/core/src/main/jdk1.1/java
+src4 : 145_rtyley_spongycastle/core/src/main/jdk1.2/java
+src5 : 145_rtyley_spongycastle/jce/src/main/java
+src6 : 145_rtyley_spongycastle/kmip/src/main/java
+src7 : 145_rtyley_spongycastle/mail/src/main/java
+src8 : 145_rtyley_spongycastle/misc/src/main/java
+src9 : 145_rtyley_spongycastle/pg/src/main/java
+src10 : 145_rtyley_spongycastle/pkix/src/main/java
+src11 : 145_rtyley_spongycastle/prov/src/main/java
+src12 : 145_rtyley_spongycastle/tls/src/main/java

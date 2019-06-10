@@ -1,0 +1,3 @@
+git:  https://github.com/bpellin/keepassdroid.git
+
+(221) src1 : 164_bpellin_keepassdroid/app/src/main/java

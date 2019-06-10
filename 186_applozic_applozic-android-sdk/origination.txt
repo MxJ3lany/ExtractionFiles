@@ -1,0 +1,6 @@
+git:  https://github.com/applozic/applozic-android-sdk.git
+
+(11) src1 : 186_applozic_applozic-android-sdk/app/src/main/java
+(151) src2 : 186_applozic_applozic-android-sdk/mobicomkit/src/main/java
+(112) src3 : 186_applozic_applozic-android-sdk/mobicomkitui/src/main/java
+(40) src4 : 186_applozic_applozic-android-sdk/mobicommons/src/main/java

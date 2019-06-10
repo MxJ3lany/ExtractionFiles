@@ -1,0 +1,6 @@
+git:  https://github.com/iiordanov/remote-desktop-clients.git
+
+src1 : 197_iiordanov_remote-desktop-clients/bVNC/src2/main/java
+src2 : 197_iiordanov_remote-desktop-clients/Opaque/src/main/java
+src3 : 197_iiordanov_remote-desktop-clients/pubkeyGenerator/src2/main/java
+src4 : 197_iiordanov_remote-desktop-clients/remoteClientLib/src/main/java

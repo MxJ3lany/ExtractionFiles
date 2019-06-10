@@ -1,0 +1,4 @@
+git:  https://github.com/omadahealth/lollipin.git
+
+(5) src1 : 151_omadahealth_lollipin/app/src/main/java
+(18) src2 : 151_omadahealth_lollipin/lib/src/main/java

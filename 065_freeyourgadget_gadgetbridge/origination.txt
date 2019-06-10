@@ -1,0 +1,3 @@
+git:  https://github.com/freeyourgadget/gadgetbridge.git
+
+src1 : 065_freeyourgadget_gadgetbridge/app/src/main/java

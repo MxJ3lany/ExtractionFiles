@@ -1,0 +1,8 @@
+git:  https://github.com/corbinlc/gnurootdebian.git
+
+(179) src1 : 015_corbinlc_gnurootdebian/bVNC/src/main/java
+(20) src2 : 015_corbinlc_gnurootdebian/downloader_library/src/main/java
+(9) src3 : 015_corbinlc_gnurootdebian/GNURootDebianSource/src/main/java
+(18) src4 : 015_corbinlc_gnurootdebian/play_licensing/src/main/java
+(183) src5 : 015_corbinlc_gnurootdebian/pubkeyGenerator/src/main/java
+(1) src6 : 015_corbinlc_gnurootdebian/zoomerWithKeys/src/main/java

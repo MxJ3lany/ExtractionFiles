@@ -1,0 +1,7 @@
+git:  https://github.com/jecelyin/920-text-editor-v2.git
+
+(83) src1 : 016_jecelyin_920-text-editor-v2/app/src/main/java
+(69) src2 : 016_jecelyin_920-text-editor-v2/common/src/main/java
+(30) src3 : 016_jecelyin_920-text-editor-v2/file_explorer/src/main/java
+(3) src4 : 016_jecelyin_920-text-editor-v2/styles/src/main/java
+(22) src5 : 016_jecelyin_920-text-editor-v2/tools/src/main/java

@@ -1,0 +1,7 @@
+git:  https://github.com/citiususc/calendula.git
+
+(1) src1 : 115_citiususc_calendula/Calendula/src/alpha/java
+(1) src2 : 115_citiususc_calendula/Calendula/src/beta/java
+(1) src3 : 115_citiususc_calendula/Calendula/src/debug/java
+(210) src4 : 115_citiususc_calendula/Calendula/src/main/java
+(1) src5 : 115_citiususc_calendula/Calendula/src/release/java

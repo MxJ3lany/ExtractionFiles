@@ -1,0 +1,3 @@
+git:  https://github.com/signalapp/signal-android.git
+
+src1 : 182_signalapp_signal-android/buildSrc/src/main/java

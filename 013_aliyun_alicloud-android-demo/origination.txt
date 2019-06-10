@@ -1,0 +1,9 @@
+git:  https://github.com/aliyun/alicloud-android-demo.git
+
+(5) src1 : 013_aliyun_alicloud-android-demo/feedback_android_demo/src/main/java
+(9) src2 : 013_aliyun_alicloud-android-demo/hotfix_android_demo/src/main/java
+(5) src3 : 013_aliyun_alicloud-android-demo/httpdns_android_demo/src/main/java
+(4) src4 : 013_aliyun_alicloud-android-demo/httpdns_api_demo/src/main/java
+(7) src5 : 013_aliyun_alicloud-android-demo/man_android_demo/src/main/java
+(9) src6 : 013_aliyun_alicloud-android-demo/mpush_android_demo/src/main/java
+(5) src7 : 013_aliyun_alicloud-android-demo/mpush_reactnative_android_demo/AwesomeProject/android/app/src/main/java

@@ -1,0 +1,4 @@
+git:  https://github.com/crossbario/autobahn-java.git
+
+(127) src1 : 037_crossbario_autobahn-java/autobahn/src/main/java
+(19) src2 : 037_crossbario_autobahn-java/demo-gallery/src/main/java

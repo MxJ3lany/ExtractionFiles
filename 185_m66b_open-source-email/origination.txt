@@ -1,0 +1,3 @@
+git:  https://github.com/m66b/open-source-email.git
+
+(167) src1 : 185_m66b_open-source-email/app/src/main/java

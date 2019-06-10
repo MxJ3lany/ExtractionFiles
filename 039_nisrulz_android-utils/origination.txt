@@ -1,0 +1,4 @@
+git:  https://github.com/nisrulz/android-utils.git
+
+(26) src1 : 039_nisrulz_android-utils/android-utils/src/main/java
+(1) src2 : 039_nisrulz_android-utils/sample/src/main/java

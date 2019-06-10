@@ -1,0 +1,3 @@
+git:  https://github.com/ac-pm/inspeckage.git
+
+(43) src1 : 022_ac-pm_inspeckage/app/src/main/java

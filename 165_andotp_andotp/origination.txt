@@ -1,0 +1,3 @@
+git:  https://github.com/andotp/andotp.git
+
+(41) src1 : 165_andotp_andotp/app/src/main/java

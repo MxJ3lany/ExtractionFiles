@@ -1,0 +1,5 @@
+git:  https://github.com/hankkin/reading.git
+
+(41) src1 : 095_hankkin_reading/app/src/main/java
+(76) src2 : 095_hankkin_reading/library/src/main/java
+(43) src3 : 095_hankkin_reading/magicasakura/src/main/java

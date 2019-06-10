@@ -1,0 +1,4 @@
+git:  https://github.com/uccmawei/fingerprintidentify.git
+
+(1) src1 : 158_uccmawei_fingerprintidentify/app/src/main/java
+(7) src2 : 158_uccmawei_fingerprintidentify/FingerprintIdentifyLib/src/main/java

@@ -1,0 +1,8 @@
+git:  https://github.com/topjohnwu/magisk.git
+
+(42) src1 : 079_topjohnwu_magisk/app/src/main/java
+(9) src2 : 079_topjohnwu_magisk/net/src/main/java
+(3) src3 : 079_topjohnwu_magisk/shared/src/main/java
+(8) src4 : 079_topjohnwu_magisk/signing/src/main/java
+(3) src5 : 079_topjohnwu_magisk/snet/src/main/java
+(2) src6 : 079_topjohnwu_magisk/stub/src/main/java

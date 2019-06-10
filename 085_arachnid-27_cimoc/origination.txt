@@ -1,0 +1,3 @@
+git:  https://github.com/arachnid-27/cimoc.git
+
+(200) src1 : 085_arachnid-27_cimoc/app/src/main/java

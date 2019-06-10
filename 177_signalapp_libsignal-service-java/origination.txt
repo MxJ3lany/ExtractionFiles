@@ -1,0 +1,5 @@
+git:  https://github.com/signalapp/libsignal-service-java.git
+
+(1) src1 : 177_signalapp_libsignal-service-java/android/src/main/java
+(153) src2 : 177_signalapp_libsignal-service-java/java
+(147) src3 : 177_signalapp_libsignal-service-java/java/src/main/java

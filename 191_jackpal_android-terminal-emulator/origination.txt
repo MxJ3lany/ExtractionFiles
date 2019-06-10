@@ -1,0 +1,8 @@
+git:  https://github.com/jackpal/android-terminal-emulator.git
+
+(27) src1 : 191_jackpal_android-terminal-emulator/emulatorview/src/main/java
+(1) src2 : 191_jackpal_android-terminal-emulator/libtermexec/src/main/java
+(1) src3 : 191_jackpal_android-terminal-emulator/samples/intents/src/main/java
+(1) src4 : 191_jackpal_android-terminal-emulator/samples/pathbroadcasts/src/main/java
+(3) src5 : 191_jackpal_android-terminal-emulator/samples/telnet/src/main/java
+(31) src6 : 191_jackpal_android-terminal-emulator/term/src/main/java

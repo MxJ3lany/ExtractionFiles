@@ -1,0 +1,4 @@
+git:  https://github.com/espressifapp/esptouchforandroid.git
+
+(1) src1 : 030_espressifapp_esptouchforandroid/app/src/main/java
+(22) src2 : 030_espressifapp_esptouchforandroid/esptouch/src/main/java

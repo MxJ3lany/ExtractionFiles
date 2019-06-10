@@ -1,0 +1,5 @@
+git:  https://github.com/horaapps/leafpic.git
+
+(137) src1 : 091_horaapps_leafpic/app/src/main/java
+(1) src2 : 091_horaapps_leafpic/app/src/noGPlay/java
+(1) src3 : 091_horaapps_leafpic/app/src/withGPlay/java

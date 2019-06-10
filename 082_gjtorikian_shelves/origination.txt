@@ -1,0 +1,3 @@
+git:  https://github.com/gjtorikian/shelves.git
+
+(172) src1 : 082_gjtorikian_shelves/app/src/main/java

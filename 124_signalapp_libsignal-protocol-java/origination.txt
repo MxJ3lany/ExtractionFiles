@@ -1,0 +1,5 @@
+git:  https://github.com/signalapp/libsignal-protocol-java.git
+
+(1) src1 : 124_signalapp_libsignal-protocol-java/android/src/main/java
+(94) src2 : 124_signalapp_libsignal-protocol-java/java
+(93) src3 : 124_signalapp_libsignal-protocol-java/java/src/main/java

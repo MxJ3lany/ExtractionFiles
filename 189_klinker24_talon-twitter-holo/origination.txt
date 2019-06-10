@@ -1,0 +1,5 @@
+git:  https://github.com/klinker24/talon-twitter-holo.git
+
+src1 : 189_klinker24_talon-twitter-holo/app/src/main/java
+src2 : 189_klinker24_talon-twitter-holo/shared_assets/src/main/java
+src3 : 189_klinker24_talon-twitter-holo/wear/src/main/java

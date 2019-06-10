@@ -1,0 +1,4 @@
+git:  https://github.com/telegram-foss-team/telegram-foss.git
+
+(1165) src1 : 169_telegram-foss-team_telegram-foss/TMessagesProj/src/main/java
+(1) src2 : 169_telegram-foss-team_telegram-foss/TMessagesProj/src/multidex/java

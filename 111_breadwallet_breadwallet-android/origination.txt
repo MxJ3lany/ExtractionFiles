@@ -1,0 +1,3 @@
+git:  https://github.com/breadwallet/breadwallet-android.git
+
+(244) src1 : 111_breadwallet_breadwallet-android/app/src/main/java

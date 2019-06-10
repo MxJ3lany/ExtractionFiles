@@ -1,0 +1,16 @@
+git:  https://github.com/mycelium-com/wallet-android.git
+
+(1) src1 : 107_mycelium-com_wallet-android/backuputil/src/main/java
+(101) src2 : 107_mycelium-com_wallet-android/bitlib/src/main/java
+(25) src3 : 107_mycelium-com_wallet-android/btchip/src/main/java
+(21) src4 : 107_mycelium-com_wallet-android/coinapult/src/main/java
+(5) src5 : 107_mycelium-com_wallet-android/libs/nordpol/src/main/java
+(45) src6 : 107_mycelium-com_wallet-android/lt-api/src/main/java
+(17) src7 : 107_mycelium-com_wallet-android/LVL/src/main/java
+(416) src8 : 107_mycelium-com_wallet-android/mbw/src/main/java
+(26) src9 : 107_mycelium-com_wallet-android/mbwlib/src/main/java
+(6) src10 : 107_mycelium-com_wallet-android/trezor/src/main/java
+(4) src11 : 107_mycelium-com_wallet-android/view/src/main/java
+(29) src12 : 107_mycelium-com_wallet-android/walletcore/src/main/java
+(23) src13 : 107_mycelium-com_wallet-android/walletmodel/src/main/java
+(36) src14 : 107_mycelium-com_wallet-android/wapi/src/main/java

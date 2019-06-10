@@ -1,0 +1,17 @@
+git:  https://github.com/samuelhuahui/sun.git
+
+(9) src1 : 025_samuelhuahui_sun/app/src/main/java
+(1) src2 : 025_samuelhuahui_sun/guide/src/main/java
+(10) src3 : 025_samuelhuahui_sun/library/activityrouter/src/main/java
+(4) src4 : 025_samuelhuahui_sun/library/annotation/src/main/java
+(63) src5 : 025_samuelhuahui_sun/library/baselibrary/src/main/java
+(9) src6 : 025_samuelhuahui_sun/library/bridge/src/main/java
+(2) src7 : 025_samuelhuahui_sun/library/compiler/src/main/java
+(2) src8 : 025_samuelhuahui_sun/library/pay/src/main/java
+(25) src9 : 025_samuelhuahui_sun/library/pickerphoto/src/main/java
+(2) src10 : 025_samuelhuahui_sun/library/push/src/main/java
+(1) src11 : 025_samuelhuahui_sun/library/share/src/main/java
+(2) src12 : 025_samuelhuahui_sun/library/stub/src/main/java
+(4) src13 : 025_samuelhuahui_sun/login/src/main/java
+(1) src14 : 025_samuelhuahui_sun/trade/src/main/java
+(1) src15 : 025_samuelhuahui_sun/usercenter/src/main/java

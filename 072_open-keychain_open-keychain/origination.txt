@@ -1,0 +1,8 @@
+git:  https://github.com/open-keychain/open-keychain.git
+
+(20) src1 : 072_open-keychain_open-keychain/extern/MaterialChipsInput/src/main/java
+(14) src2 : 072_open-keychain_open-keychain/libkeychain/src/main/java
+(2) src3 : 072_open-keychain_open-keychain/nfcsweetspot/src/main/java
+(459) src4 : 072_open-keychain_open-keychain/OpenKeychain/src/main/java
+(2) src5 : 072_open-keychain_open-keychain/resources/x509-service/src/main/java
+(14) src6 : 072_open-keychain_open-keychain/sshauthentication-api/src/main/java

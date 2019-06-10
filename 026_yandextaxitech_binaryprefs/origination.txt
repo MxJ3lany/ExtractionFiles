@@ -1,0 +1,3 @@
+git:  https://github.com/yandextaxitech/binaryprefs.git
+
+(76) src1 : 026_yandextaxitech_binaryprefs/library/src/main/java

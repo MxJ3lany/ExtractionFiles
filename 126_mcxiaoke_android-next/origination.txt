@@ -1,0 +1,9 @@
+git:  https://github.com/mcxiaoke/android-next.git
+
+(47) src1 : 126_mcxiaoke_android-next/core/src/main/java
+(11) src2 : 126_mcxiaoke_android-next/func/src/main/java
+(33) src3 : 126_mcxiaoke_android-next/http/src/main/java
+(4) src4 : 126_mcxiaoke_android-next/recycler/src/main/java
+(31) src5 : 126_mcxiaoke_android-next/samples/src/main/java
+(22) src6 : 126_mcxiaoke_android-next/task/src/main/java
+(34) src7 : 126_mcxiaoke_android-next/ui/src/main/java

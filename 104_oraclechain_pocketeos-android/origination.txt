@@ -1,0 +1,5 @@
+git:  https://github.com/oraclechain/pocketeos-android.git
+
+(401) src1 : 104_oraclechain_pocketeos-android/app/src/main/java
+(9) src2 : 104_oraclechain_pocketeos-android/barlibrary/src/main/java
+(8) src3 : 104_oraclechain_pocketeos-android/permission/src/main/java

@@ -1,0 +1,4 @@
+git:  https://github.com/iammehedi/secured-preference-store.git
+
+(2) src1 : 157_iammehedi_secured-preference-store/app/src/main/java
+(5) src2 : 157_iammehedi_secured-preference-store/securedpreferencestore/src/main/java

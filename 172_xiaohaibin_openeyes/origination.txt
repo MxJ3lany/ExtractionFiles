@@ -1,0 +1,3 @@
+git:  https://github.com/xiaohaibin/openeyes.git
+
+src1 : 172_xiaohaibin_openeyes/app/src/main/java

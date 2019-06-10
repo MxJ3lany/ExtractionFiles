@@ -1,0 +1,4 @@
+git:  https://github.com/fanhua1994/xbaseandroid.git
+
+(10) src1 : 049_fanhua1994_xbaseandroid/app/src/main/java
+(151) src2 : 049_fanhua1994_xbaseandroid/baseandroidcore/src/main/java

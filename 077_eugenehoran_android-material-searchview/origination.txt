@@ -1,0 +1,5 @@
+git:  https://github.com/eugenehoran/android-material-searchview.git
+
+(15) src1 : 077_eugenehoran_android-material-searchview/app/src/main/java
+(1) src2 : 077_eugenehoran_android-material-searchview/materialsearchview/src/main/java
+(1) src3 : 077_eugenehoran_android-material-searchview/oldsearchview/src/main/java

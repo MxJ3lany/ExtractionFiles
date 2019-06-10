@@ -1,0 +1,3 @@
+git:  https://github.com/0xbb/otp-authenticator.git
+
+(11) src1 : 131_0xbb_otp-authenticator/app/src/main/java

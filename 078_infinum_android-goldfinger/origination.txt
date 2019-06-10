@@ -1,0 +1,5 @@
+git:  https://github.com/infinum/android-goldfinger.git
+
+(12) src1 : 078_infinum_android-goldfinger/core/src/main/java
+(4) src2 : 078_infinum_android-goldfinger/example/src/main/java
+(3) src3 : 078_infinum_android-goldfinger/rx/src/main/java

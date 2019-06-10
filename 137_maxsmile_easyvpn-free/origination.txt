@@ -1,0 +1,3 @@
+git:  https://github.com/maxsmile/easyvpn-free.git
+
+(66) src1 : 137_maxsmile_easyvpn-free/Android-code/app/src/main/java

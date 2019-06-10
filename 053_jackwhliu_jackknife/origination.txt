@@ -1,0 +1,13 @@
+git:  https://github.com/jackwhliu/jackknife.git
+
+(17) src1 : 053_jackwhliu_jackknife/jackknife-annotations-ioc/src/main/java
+(4) src2 : 053_jackwhliu_jackknife/jackknife-aop/src/main/java
+(7) src3 : 053_jackwhliu_jackknife/jackknife-av/src/main/java
+(26) src4 : 053_jackwhliu_jackknife/jackknife-ioc/src/main/java
+(19) src5 : 053_jackwhliu_jackknife/jackknife-ioc2/src/main/java
+(15) src6 : 053_jackwhliu_jackknife/jackknife-multiproxy/src/main/java
+(6) src7 : 053_jackwhliu_jackknife/jackknife-mvp/src/main/java
+(40) src8 : 053_jackwhliu_jackknife/jackknife-orm/src/main/java
+(21) src9 : 053_jackwhliu_jackknife/jackknife-util/src/main/java
+(88) src10 : 053_jackwhliu_jackknife/jackknife-widget/src/main/java
+(13) src11 : 053_jackwhliu_jackknife/jackknife-xskin/src/main/java

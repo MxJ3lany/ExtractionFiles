@@ -1,0 +1,3 @@
+git:  https://github.com/pazaan/600seriesandroiduploader.git
+
+(119) src1 : 114_pazaan_600seriesandroiduploader/app/src/main/java

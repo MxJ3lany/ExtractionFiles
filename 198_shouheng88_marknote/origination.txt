@@ -1,0 +1,8 @@
+git:  https://github.com/shouheng88/marknote.git
+
+(89) src1 : 198_shouheng88_marknote/client/app/src/main/java
+(73) src2 : 198_shouheng88_marknote/commons/src/main/java
+(53) src3 : 198_shouheng88_marknote/data/src/main/java
+(7) src4 : 198_shouheng88_marknote/fingerprint/src/main/java
+(18) src5 : 198_shouheng88_marknote/photoview/src/main/java
+(9) src6 : 198_shouheng88_marknote/pinlockview/src/main/java

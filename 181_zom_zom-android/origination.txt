@@ -1,0 +1,4 @@
+git:  https://github.com/zom/zom-android.git
+
+(231) src1 : 181_zom_zom-android/app/src/main/java
+(7) src2 : 181_zom_zom-android/tibetanTextLibrary/src/main/java

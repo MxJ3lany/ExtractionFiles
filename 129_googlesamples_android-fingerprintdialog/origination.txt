@@ -1,0 +1,3 @@
+git:  https://github.com/googlesamples/android-fingerprintdialog.git
+
+(4) src1 : 129_googlesamples_android-fingerprintdialog/Application/src/main/java

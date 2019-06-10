@@ -1,0 +1,7 @@
+git:  https://github.com/pedrosg94/rtmp-rtsp-stream-client-java.git
+
+(18) src1 : 098_pedrosg94_rtmp-rtsp-stream-client-java/app/src/main/java
+(92) src2 : 098_pedrosg94_rtmp-rtsp-stream-client-java/encoder/src/main/java
+(41) src3 : 098_pedrosg94_rtmp-rtsp-stream-client-java/rtmp/src/main/java
+(30) src4 : 098_pedrosg94_rtmp-rtsp-stream-client-java/rtplibrary/src/main/java
+(24) src5 : 098_pedrosg94_rtmp-rtsp-stream-client-java/rtsp/src/main/java

@@ -1,0 +1,229 @@
+/*
+ * Copyright 2014 Luke Klinker
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+package com.klinker.android.twitter.utils;
+
+import android.app.Activity;
+import android.app.AlertDialog;
+import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.content.SharedPreferences;
+import android.net.Uri;
+import android.os.AsyncTask;
+import android.os.Build;
+import android.os.Environment;
+import android.preference.PreferenceManager;
+import android.widget.Toast;
+
+import com.klinker.android.twitter.R;
+import com.klinker.android.twitter.settings.AppSettings;
+import com.klinker.android.twitter.activities.MainActivity;
+
+import java.io.File;
+import java.util.HashSet;
+import java.util.Set;
+
+import twitter4j.User;
+
+
+public class UpdateUtils {
+
+    public static void updateToGlobalPrefs(final Context context) {
+        new AlertDialog.Builder(context)
+                .setTitle("Settings Update")
+                .setMessage("Talon has to update your settings preferences to prepare for some new things. This will override any old settings backups.")
+                .setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        new WriteGlobalSharedPrefs(context).execute();
+                    }
+                })
+                .create()
+                .show();
+    }
+
+    static class WriteGlobalSharedPrefs extends AsyncTask<String, Void, Boolean> {
+
+        ProgressDialog pDialog;
+        Context context;
+
+        public WriteGlobalSharedPrefs(Context context) {
+            this.context = context;
+        }
+
+        protected void onPreExecute() {
+            super.onPreExecute();
+            pDialog = new ProgressDialog(context);
+            pDialog.setMessage("Saving...");
+            pDialog.setIndeterminate(false);
+            pDialog.setCancelable(false);
+            pDialog.show();
+
+        }
+
+        protected Boolean doInBackground(String... urls) {
+            File des = new File(Environment.getExternalStorageDirectory() + "/Talon/backup.prefs");
+            IOUtils.saveSharedPreferencesToFile(des, context);
+            IOUtils.loadSharedPreferencesFromFile(des, context);
+
+            return true;
+        }
+
+        protected void onPostExecute(Boolean deleted) {
+            try {
+                pDialog.dismiss();
+                Toast.makeText(context, "Save Complete", Toast.LENGTH_SHORT).show();
+            } catch (Exception e) {
+                // not attached
+            }
+
+            SharedPreferences sharedPrefs = context.getSharedPreferences("com.klinker.android.twitter_world_preferences",
+                    0);
+            sharedPrefs.edit().putBoolean("version_2_2_7_1", false).commit();
+
+            PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean("version_2_2_7_1", false).commit();
+
+            ((Activity)context).finish();
+            context.startActivity(new Intent(context, MainActivity.class));
+            ((Activity)context).overridePendingTransition(0,0);
+        }
+    }
+
+    public static void versionThreeDialog(final Context context) {
+        new AlertDialog.Builder(context)
+                .setTitle("Blur - A Launcher Replacement")
+                .setMessage("With version 3.0.0, Talon has added support for our latest project, Blur, which is Klinker Apps launcher.\n\n" +
+                        "It does some very cool interfacing with Talon, basically having the full app just one swipe away on your launcher. It has been a great project to work on and I recommend checking it out, it is completely free!\n\n" +
+                        "Head over to the Play Store description for Blur to learn more about getting Talon compatible (it is just downloading one extension app).\n\n" +
+                        "Hope you like it!")
+                .setPositiveButton("Go to Blur!", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        Intent web = new Intent(Intent.ACTION_VIEW);
+                        web.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.klinker.android.launcher"));
+                        context.startActivity(web);
+                    }
+                })
+                .setNegativeButton("Close", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        dialog.dismiss();
+                    }
+                })
+                .create()
+                .show();
+    }
+
+    public static void checkUpdate(final Context context) {
+        final SharedPreferences sharedPrefs = context.getSharedPreferences("com.klinker.android.twitter_world_preferences",
+                0);
+
+        if (sharedPrefs.getBoolean("3.1.5", true)) {
+            sharedPrefs.edit().putBoolean("3.1.5", false).commit();
+
+            // want to make sure if tweetmarker was on, it remains on.
+            if (sharedPrefs.getBoolean("tweetmarker", false)) {
+                sharedPrefs.edit().putString("tweetmarker_options", "1").commit();
+                AppSettings.invalidate();
+            }
+        }
+
+        if (sharedPrefs.getBoolean("4.0.0", true)) {
+            SharedPreferences.Editor e = sharedPrefs.edit();
+            e.putBoolean("4.0.0", false);
+
+            // show them all for now
+            Set<String> set = new HashSet<String>();
+            set.add("0"); // activity
+            set.add("1"); // timeline
+            set.add("2"); // mentions
+            set.add("3"); // dm's
+            set.add("4"); // discover
+            set.add("5"); // lists
+            set.add("6"); // favorite users
+            set.add("7"); // retweets
+            set.add("8"); // favorite Tweets
+            set.add("9"); // saved searches
+
+            e.putStringSet("drawer_elements_shown_1", set);
+            e.putStringSet("drawer_elements_shown_2", set);
+
+            // reset their pages to just home,
+            String pageIdentifier = "account_" + 1 + "_page_";
+            e.putInt(pageIdentifier + 1, AppSettings.PAGE_TYPE_ACTIVITY);
+            e.putInt(pageIdentifier + 2, AppSettings.PAGE_TYPE_HOME);
+            e.putInt(pageIdentifier + 3, AppSettings.PAGE_TYPE_MENTIONS);
+            e.putInt(pageIdentifier + 4, AppSettings.PAGE_TYPE_DMS);
+
+            pageIdentifier = "account_" + 2 + "_page_";
+            e.putInt(pageIdentifier + 1, AppSettings.PAGE_TYPE_ACTIVITY);
+            e.putInt(pageIdentifier + 2, AppSettings.PAGE_TYPE_HOME);
+            e.putInt(pageIdentifier + 3, AppSettings.PAGE_TYPE_MENTIONS);
+            e.putInt(pageIdentifier + 4, AppSettings.PAGE_TYPE_DMS);
+
+            e.putInt("default_timeline_page_" + 1, 1);
+            e.putInt("default_timeline_page_" + 2, 1);
+
+            e.commit();
+        }
+
+        if (!sharedPrefs.getBoolean("displayed_upgrade_message", false) && Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            sharedPrefs.edit().putBoolean("displayed_upgrade_message", true).commit();
+
+            new AlertDialog.Builder(context)
+                    .setTitle("Love Talon?")
+                    .setMessage("Consider upgrading to the Material Design version of the app! All the latest design elements, in the same Twitter app you have come to enjoy every day.\n\n" +
+                            "This 'classic' version of the app will continue to receive all the new features that are possible, just without the visual updates.")
+                    .setPositiveButton("Upgrade", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            new WebIntentBuilder(context)
+                                    .setShouldForceExternal(true)
+                                    .setUrl("https://play.google.com/store/apps/details?id=com.klinker.android.twitter_l")
+                                    .build().start();
+                        }
+                    })
+                    .setNegativeButton("Learn More", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                            new WebIntentBuilder(context)
+                                    .setShouldForceExternal(true)
+                                    .setUrl("https://plus.google.com/+LukeKlinker/posts/KG4AcH3YA2U")
+                                    .build().start();
+                        }
+                    })
+                    .create()
+                    .show();
+        }
+
+        if (sharedPrefs.getBoolean("need_translation_update", true)) {
+            sharedPrefs.edit().putBoolean("need_translation_update", false).commit();
+            new Thread(new Runnable() {
+                @Override
+                public void run() {
+                    try {
+                        User user = Utils.getTwitter(context).verifyCredentials();
+                        sharedPrefs.edit().putString("translate_url", Utils.getTranslateURL(user.getLang())).commit();
+                    } catch (Exception e) {
+
+                    }
+                }
+            }).start();
+        }
+    }
+}

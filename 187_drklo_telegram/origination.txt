@@ -1,0 +1,4 @@
+git:  https://github.com/drklo/telegram.git
+
+(1168) src1 : 187_drklo_telegram/TMessagesProj/src/main/java
+(1) src2 : 187_drklo_telegram/TMessagesProj/src/multidex/java

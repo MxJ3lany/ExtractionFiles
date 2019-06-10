@@ -1,0 +1,9 @@
+git:  https://github.com/bihe0832/android-getapkinfo.git
+
+(1) src1 : 027_bihe0832_android-getapkinfo/AndroidGetSignature/src/main/java
+(4) src2 : 027_bihe0832_android-getapkinfo/apksig/src/apksigner/java
+(40) src3 : 027_bihe0832_android-getapkinfo/apksig/src/main/java
+(11) src4 : 027_bihe0832_android-getapkinfo/AXMLPrinter2_zixie/src/main/java
+(4) src5 : 027_bihe0832_android-getapkinfo/CheckAndroidV2Signature/src/main/java
+(44) src6 : 027_bihe0832_android-getapkinfo/CheckAndroidV2SignatureByAPKSig/src/main/java
+(5) src7 : 027_bihe0832_android-getapkinfo/GetApkInfo/src/main/java

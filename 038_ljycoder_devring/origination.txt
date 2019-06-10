@@ -1,0 +1,5 @@
+git:  https://github.com/ljycoder/devring.git
+
+(35) src1 : 038_ljycoder_devring/ApiDemo/src/main/java
+(89) src2 : 038_ljycoder_devring/devring/src/main/java
+(38) src3 : 038_ljycoder_devring/ApiDemo/src/

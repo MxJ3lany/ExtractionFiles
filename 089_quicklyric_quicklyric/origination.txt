@@ -1,0 +1,3 @@
+git:  https://github.com/quicklyric/quicklyric.git
+
+(97) src1 : 089_quicklyric_quicklyric/QuickLyric/src/main/java

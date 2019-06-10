@@ -1,0 +1,8 @@
+git:  https://github.com/qpython-android/qpython.git
+
+(9) src1 : 024_qpython-android_qpython/qpypluginman/src/main/java
+(33) src2 : 024_qpython-android_qpython/qpysdk/src/main/java
+(135) src3 : 024_qpython-android_qpython/qpysl4a/src/main/java
+(64) src4 : 024_qpython-android_qpython/qpython/src/main/java
+(27) src5 : 024_qpython-android_qpython/termemulator/src/main/java
+(1) src6 : 024_qpython-android_qpython/termexec/src/main/java

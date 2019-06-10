@@ -1,0 +1,3 @@
+git:  https://github.com/google/google-authenticator-android.git
+
+(67) src1 : 160_google_google-authenticator-android/java

@@ -1,0 +1,6 @@
+git:  https://github.com/tencent/soter.git
+
+(15) src1 : 155_tencent_soter/soter-client-demo/app/src/main/java
+(16) src2 : 155_tencent_soter/soter-client-sdk/soter-core/src/main/java
+(30) src3 : 155_tencent_soter/soter-client-sdk/soter-wrapper/src/main/java
+(3) src4 : 155_tencent_soter/soter-server-samples/java

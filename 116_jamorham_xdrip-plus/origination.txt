@@ -1,0 +1,5 @@
+git:  https://github.com/jamorham/xdrip-plus.git
+
+src1 : 116_jamorham_xdrip-plus/app/src/main/java
+src2 : 116_jamorham_xdrip-plus/localeapi/src/main/java
+src3 : 116_jamorham_xdrip-plus/wear/src/main/java

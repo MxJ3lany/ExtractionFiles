@@ -1,0 +1,12 @@
+git:  https://github.com/paypal/selion.git
+
+src1 : 042_paypal_selion/appium-provider/src/main/java
+src2 : 042_paypal_selion/archetype/src/main/resources/archetype-resources/src/main/java
+src3 : 042_paypal_selion/client/src/main/java
+src4 : 042_paypal_selion/codegen/src/main/java
+src5 : 042_paypal_selion/codegen-maven/src/main/java
+src6 : 042_paypal_selion/common/src/main/java
+src7 : 042_paypal_selion/dataproviders/src/main/java
+src8 : 042_paypal_selion/iosdriver-provider/src/main/java
+src9 : 042_paypal_selion/selendroid-provider/src/main/java
+src10 : 042_paypal_selion/server/src/main/java

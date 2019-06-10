@@ -1,0 +1,3 @@
+git:  https://github.com/wordpress-mobile/passcodelock-android.git
+
+(4) src1 : 142_wordpress-mobile_passcodelock-android/sample/src/main/java

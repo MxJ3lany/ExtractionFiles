@@ -1,0 +1,4 @@
+git:  https://github.com/sromku/android-storage.git
+
+(12) src1 : 127_sromku_android-storage/app/src/main/java
+(11) src2 : 127_sromku_android-storage/storage/src/main/java

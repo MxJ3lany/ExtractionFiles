@@ -1,0 +1,5 @@
+git:  https://github.com/yanzhenjie/kalle.git
+
+(102) src1 : 021_yanzhenjie_kalle/kalle/src/main/java
+(1) src2 : 021_yanzhenjie_kalle/okalle/src/main/java
+(48) src3 : 021_yanzhenjie_kalle/sample/src/main/java

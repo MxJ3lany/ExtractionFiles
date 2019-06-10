@@ -1,0 +1,5 @@
+git:  https://github.com/manuelsc/lunary-ethereum-wallet.git
+
+(4) src1 : 106_manuelsc_lunary-ethereum-wallet/app/src/fdroid/java
+(3) src2 : 106_manuelsc_lunary-ethereum-wallet/app/src/googleplay/java
+(69) src3 : 106_manuelsc_lunary-ethereum-wallet/app/src/main/java

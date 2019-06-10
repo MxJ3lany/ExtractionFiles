@@ -1,0 +1,4 @@
+git:  https://github.com/thirtydegreesray/openhub.git
+
+(311) src1 : 056_thirtydegreesray_openhub/app/src/main/java
+(1) src2 : 056_thirtydegreesray_openhub/daogenerator/src/main/java

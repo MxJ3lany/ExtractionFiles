@@ -1,0 +1,16 @@
+git:  https://github.com/harshalbenake/hbworkspace2-100.git
+
+src1 : 120_harshalbenake_hbworkspace2-100/AudioRecorder_AS/app/src/main/java
+src2 : 120_harshalbenake_hbworkspace2-100/BroadcastReciever_AS/app/src/main/java
+src3 : 120_harshalbenake_hbworkspace2-100/CustomActionBar_AS/app/src/main/java
+src4 : 120_harshalbenake_hbworkspace2-100/CustomCamera_AS/app/src/main/java
+src5 : 120_harshalbenake_hbworkspace2-100/CustomSpinner_AS/app/src/main/java
+src6 : 120_harshalbenake_hbworkspace2-100/DateAndTimePicker_AS/app/src/main/java
+src7 : 120_harshalbenake_hbworkspace2-100/FindingFriend_AS/app/src/main/java
+src8 : 120_harshalbenake_hbworkspace2-100/GoogleAnalytics_AS/app/src/main/java
+src9 : 120_harshalbenake_hbworkspace2-100/InAppPurchase_AS/app/src/main/java
+src10 : 120_harshalbenake_hbworkspace2-100/ListViewParsingDB_AndroidStudio/app/src/main/java
+src11 : 120_harshalbenake_hbworkspace2-100/MessangerList_AS/app/src/main/java
+src12 : 120_harshalbenake_hbworkspace2-100/MoPubAd/mopub-sdk/src/main/java
+src13 : 120_harshalbenake_hbworkspace2-100/ResizeableBox_AS/app/src/main/java
+src14 : 120_harshalbenake_hbworkspace2-100/SendEmail_AS/app/src/main/java

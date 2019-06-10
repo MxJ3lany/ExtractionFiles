@@ -1,0 +1,4 @@
+git:  https://github.com/materialos/android-icon-pack.git
+
+(66) src1 : 118_materialos_android-icon-pack/app/src/main/java
+(20) src2 : 118_materialos_android-icon-pack/licensing/src/main/java

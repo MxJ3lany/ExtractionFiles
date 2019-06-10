@@ -1,0 +1,4 @@
+git:  https://github.com/tozny/java-aes-crypto.git
+
+(1) src1 : 132_tozny_java-aes-crypto/aes-crypto/src/main/java
+(1) src2 : 132_tozny_java-aes-crypto/aes-crypto-sample-app/app/src/main/java

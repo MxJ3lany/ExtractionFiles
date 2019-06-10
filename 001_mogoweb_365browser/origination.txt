@@ -1,0 +1,3 @@
+git:  https://github.com/mogoweb/365browser.git
+
+(2489) src1 : 001_mogoweb_365browser/app/src/main/java
